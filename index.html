@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anemone</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #ffdbc0;">
+    <h1 class="f1">Py</h1>
+    <div class="container">
+        <center>
+            <img src="owl.png" alt="" width="30%">
+            <h1 style="margin-top:0;margin-bottom: 0;">
+                Anemone</h1>
+            <p style="margin-top:0">Advance Google Search Tool</p>
+        </center>
+        <!-- form -->
+        <form id="loginForm" action="">
+            <div class="row">
+                <div class="six columns">
+                    <!-- normal -->
+                    <label for="keyword">What you want ?</label>
+                    <input class="u-full-width inp" type="text" placeholder="coding tutorial" id="keyword">
+                </div>
+                <div class="three columns">
+                    <label for="">Any Target ?</label>
+                    <input class="u-full-width" type="text" placeholder="reddit.com" id="site">
+                </div>
+                <div class="three columns">
+                    <label for="exampleRecipientInput">File Type</label>
+                    <select class="u-full-width" id="file">
+                        <option value="html">html</option>
+                        <option value="pdf">PDF</option>
+                        <option value="ppt">PPT</option>
+                        <option value="doc">DOC</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="six columns"> -->
+                <div class="six columns">
+                    <div style="display: inline-flex;">
+                        <!-- after -->
+                        <div class="">
+                            <label for="">From</label>
+                            <input type="date" id="after" class="u-full-width">
+                        </div>
+                        <!-- before -->
+                        <div class="" style="margin-left: 1em;">
+                            <label for="">To</label>
+                            <input type="date" id="before" class="u-full-width"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="six columns">
+                	<label for="">Blogs</label>
+                    <input type="text" id="blog" class="u-full-width"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                	<label for="keyword">URL include</label>
+                    <input class="u-full-width inp" type="text" placeholder="coding tutorial" id="url">
+                </div>
+                <div class="four columns">
+                	<label for="keyword">Title include</label>
+                    <input class="u-full-width inp" type="text" placeholder="coding tutorial" id="tit">
+                </div>
+                <div class="four columns">
+                	<label for="keyword">Body include</label>
+                    <input class="u-full-width inp" type="text" placeholder="coding tutorial" id="bd">
+                </div>
+            </div>
+            <label for="exampleMessage">Exact Snippet</label>
+            <textarea class="u-full-width" placeholder="python compiling error 10C9" id="snippet"></textarea>
+            <!-- <label class="example-send-yourself-copy">
+                <input type="checkbox">
+                <span class="label-body">Send a copy to yourself</span>
+            </label> -->
+            <input class="u-full-width" style="font-size: 1.5rem;" type="submit" value="S e a r c h">
+        </form>
+        <!-- example -->
+        <div class="row" style="margin-top:3em">
+            <div class="u-full-width">
+                <h5>Example 1 : Python tutorial</h5>
+                <ul>
+                    <li>Search for python tutorial Only</li>
+                    <li>Search for python tutorial with target as reddit.com</li>
+                    <li>Search for python tutorial with target as reddit.com and filetype as pdf</li>
+                </ul>
+                <h5>Example 2</h5>
+                <ul>
+                    <li>Search for python tutorial</li>
+                    <li>Just Search for python tutorial with target as reddit.com</li>
+                    <li>Just Search for python tutorial with target as reddit.com and filetype as pdf</li>
+                </ul>
+            </div>
+            <!-- <div class="six columns">2</div> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

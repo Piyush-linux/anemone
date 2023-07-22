@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+.f1{
+	font-family: "Nothing You Could Do";
+}
+
+
+input[type="email"],input[type="date"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select{	
+	border: none;
+	outline: none;
+	padding: 1em;
+}
+
+
+
+.mt{
+	margin-top: 1rem;
+}
